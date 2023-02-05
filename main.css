@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+}
+html, body, div, figure, h1, h2, h4, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-image: url(./Image/pozadina.jpg);
+    background-size: cover;
+    background-color: rgba(218, 129, 129, 0.637);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 , h3, p, figcaption, span, a {
+    color: rgb(255, 202, 202);
+}
+Header {
+    display: inline-block;
+    height: 350px;
+    width: 100%;
+}
+.nav-bar {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    text-align: right;
+}
+nav {
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+p {
+    display: block;
+    font-size: 24px;
+    padding: 30px;
+    font-weight: 600;
+}   
+a {
+    display: block;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 600;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1 {
+    display: block;
+    position: relative;
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(59, 45, 45);
+}
+h4 {
+    display: block;
+    margin-left: 55px;
+}
+.nav-2 {
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+.nav2 {
+    color: rgb(59, 45, 45);
+    font-weight: 500;
+    padding: 0px;
+    margin: 10px;
+}
+.div1 {
+    margin: 40px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    border-radius: 10px;
+    padding: 15px;
+}
+h2 {
+    padding: 8px;
+    font-size: 45px;
+}
+.div-p {
+    display: inline-block;
+    text-align: center;
+}
+figure {
+    display: inline-block;
+    padding: 20px;
+}
+.num {
+    font-size: 30px;
+    display: block;
+}
+.icon {
+    display: inline-block;
+    padding: 0px;
+    margin: 5px;
+    cursor: pointer;
+}
+.img-icon {
+    height: 40px;
+    width: 40px;
+}
+.cr {
+    font-size: 20px;
+}
